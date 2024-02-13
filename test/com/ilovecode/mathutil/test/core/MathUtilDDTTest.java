@@ -23,7 +23,7 @@ public class MathUtilDDTTest {
     @Parameterized.Parameters //JUnit sẽ ngầm chạy loop qua từng dòng của mãng để lấy ra từng cặp data input/expected
     //tên hàm không quan trọng, quan trọng là @
     public static Object[][] initData(){
-        return new Integer[][]{ {0,1},{1,1},{2,2},{3,6},{4,24},{5,120},{6,720}};
+        return new Integer[][]{ {0,1},{1,1},{2,2},{3,6},{4,24},{5,120},{6,420}};
         }
     //giả sử loop qua từng dòng của mảng, ta vẫn cần gán từng value của cột vào biến tương ứng input, expected để lát hồi feed cho hàm
     @Parameterized.Parameter(value=0)//lấy n map với cột 0
