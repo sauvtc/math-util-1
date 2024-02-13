@@ -43,7 +43,7 @@ public class MathUtil {
     
       public static long getFactorial(int n){
         if(n<0 || n>20) 
-            throw new IllegalArgumentException("n must be beetween 0--20Plz");
+            throw new IllegalArgumentException("invalid argment n between 0-20");
         if (n==0 ||n==1)
             return 1;// nhân đầu vào đặc biệt
         return n * getFactorial(n-1);//công thức đệ quy
